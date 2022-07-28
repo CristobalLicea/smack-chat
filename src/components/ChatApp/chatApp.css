@@ -1,0 +1,54 @@
+#chatApp nav {
+  display: flex;
+  align-items: center;
+  height: 68px;
+  background: rgb(0, 247, 255);
+  padding: 0 20px;
+  position: relative;
+}
+
+nav h1 {
+  color: white;
+  margin: auto;
+}
+
+.userAvatar {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.userAvatar:hover .navAvatar {
+  opacity: 0.8;
+}
+
+.userAvatar div {
+  color: blue;
+  font-weight: 600;
+}
+
+.userAvatar img {
+  max-width: 45px;
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: ease-in-out .3s;
+}
+
+.userAvatar:hover img{
+  opacity: .8;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile h4 {line-height: 2;}
+
+.smackApp {
+  display: flex;
+  height: calc(100vh - 60px);
+}

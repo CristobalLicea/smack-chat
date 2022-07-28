@@ -1,0 +1,111 @@
+.chat {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.chatHeader {
+  display: flex;
+  align-items: center;
+  color: cadetblue;
+  margin-bottom: 20px;
+}
+
+.chatHeader h4 { margin-left: 10px;}
+
+.chatList {
+  width: 100%;
+}
+
+.chatUser {
+  margin-left: 10px;
+  position: relative;
+}
+
+.chatMessage {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.chatUser small {
+  color: darkgray;
+  padding-left: 10px;
+}
+
+.chatBar {
+  position:sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.chatWrapper {
+  display: flex;
+  padding: 15px 10px;
+}
+
+.chatWrapper textarea,
+.chatWrapper input {
+  border: 1px solid black;
+}
+
+.chatWrapper textarea {
+  width: 100%;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.chatWrapper input {
+  border: 1px solid black;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 100px;
+}
+
+.typing{
+  opacity: 90%;
+  padding-left: 10px;
+}
+
+.individualMessage{
+  display: flex;
+}
+
+.deleteMsg {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(136, 0, 0);
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:5px ;
+  color: white;
+}
+
+.deleteMsg:hover {
+  color: black;
+}
+
+.editArea {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+}
+
+.editText:hover {
+  color: rgb(0, 252, 55);
+  text-decoration: underline;
+  cursor: pointer;
+}

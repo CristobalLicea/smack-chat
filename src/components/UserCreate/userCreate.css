@@ -1,0 +1,39 @@
+.avatarContainer {
+  text-align: center;
+  margin: 20px 0 40px;
+}
+
+.avatarIcon {
+  max-width: 100px;
+}
+.avatarIcon img{
+  max-width: 100px;
+}
+
+.avatarBorderRadius {
+  border-radius: 50%;
+}
+
+.avatarText {
+  color: rgb(0, 195, 255);
+  line-height: 1.5;
+}
+
+.avatarText:hover {
+  cursor: pointer;
+  color: rgb(0, 132, 255);
+}
+
+.avatarList .createAvatar {
+  transition: ease-in-out .1s;
+  opacity: .8;
+}
+.avatarList .createAvatar:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.avatarList {
+  display: flex;
+  flex-wrap: wrap;
+}
